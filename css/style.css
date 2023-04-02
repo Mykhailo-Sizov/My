@@ -32,3 +32,12 @@ label {
 textarea {
     resize: none;
 }
+
+.size {
+    display: block;
+    margin-top: 60px;
+}
+
+.month {
+    margin-top: 60px;
+}
