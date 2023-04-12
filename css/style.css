@@ -1,43 +1,52 @@
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
 
-ul li {
+ul,ol {
     list-style: none;
-    
 }
 
-li {
-    margin-bottom: 30px;
-    justify-content: center;
+ul,ol {
+    margin: 0;
+    padding: 0;
 }
 
-.container {
-   width: 1158px;
-   margin: 0 auto;
-}
-
-.vasya {
-    padding-left: 0;
-}
-
-input {
-    padding: 8px;
-    
-}
-  
-label {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 8px;
-}
-
-textarea {
-    resize: none;
-}
-
-.size {
+img {
     display: block;
-    margin-top: 60px;
+    max-width: 100%;
+    height: auto;
 }
 
-.month {
-    margin-top: 60px;
+body {
+    background-color: blueviolet;
 }
+
+/* @media (min-width: 400px) {
+    body {
+        background-color: chartreuse;
+    }
+
+}
+    
+@media (min-width: 768px) {
+    body {
+        background-color: royalblue;
+    }
+
+}
+     */
+
+     @media (max-width: 768px) {
+        body {
+            background-color: aqua;
+        }
+     }
+
+
+     @media (max-width: 400px) {
+        body {
+            background-color: rgb(24, 27, 27);
+        }
+     }
+     
